@@ -6,11 +6,11 @@ export default function SignUp() {
     <div className="m-auto w-1/2">
         <form>
             <ul>
-                <Input type-="text"  userid="user" place="your username"/>
-                <Input type-="email" userid="email" place="your email address"/>
-                <Input type-="password"  userid="pwd" place="your password"/>
+                <Input type-="text"  name="user" id="user" place="your username"/>
+                <Input type-="email" name="email" id="email" place="your email address"/>
+                <Input type-="password" name="pwd" id="pwd" place="your password"/>
 
-                <Button status="signUp"/>
+                <Button status="SignUp"/>
             </ul>
             
             
