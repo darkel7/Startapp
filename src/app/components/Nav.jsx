@@ -10,7 +10,7 @@ export default function Navbar(){
 
                 </li>
                 <li>
-                    <Link href="/signup">Sign Up</Link>~
+                    <Link href="/signup">Sign Up</Link>
                 </li>
                 <li>
                     <Link href="/login">Log In</Link>

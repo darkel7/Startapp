@@ -6,15 +6,15 @@ export default function Login() {
     <div>
     <form>
         <ul>
-            <li>
-                <Input type="email" name="email" id="email" placeholder='email address' />
-            </li>
-            <li>
-                <Input type="password" name="pswd" id="pswd" placeholder="password" />
-            </li>
-            <li>
-                <Button status='Login'/>
-            </li>
+            
+            <Input type="text" useridid="email" place='email address'/>
+            
+            
+            <Input type="password" useridid="pswd" place="password"/>
+            
+            
+            <Button status='Login'/>
+            
         </ul>
     </form>
 </div>
