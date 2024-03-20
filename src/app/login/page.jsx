@@ -1,18 +1,16 @@
 import React from 'react'
 import Button from '../components/Button'
+import Input from '../components/Input'
 export default function Login() {
   return (
     <div>
     <form>
         <ul>
             <li>
-                <input type="text" name="user" id='user' placeholder='username'/>
+                <Input type="email" name="email" id="email" placeholder='email address' />
             </li>
             <li>
-                <input type="email" name="email" id="email" placeholder='email address' />
-            </li>
-            <li>
-                <input type="password" name="pswd" id="pswd" placeholder="password" />
+                <Input type="password" name="pswd" id="pswd" placeholder="password" />
             </li>
             <li>
                 <Button status='Login'/>
